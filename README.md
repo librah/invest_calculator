@@ -15,4 +15,10 @@ to `cache/` directory.
 ```sh
 $ pip install -r requirements.txt
 $ python evaluate.py 200801 201805 -amount 1000 -symb vt 0050
+writing investment detail to output.csv
+investment returns:
+{
+  "0050": -0.005171154313227709,
+  "vt": 0.044299066648239044
+}
 ```
